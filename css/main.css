@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+li {
+  list-style-type: none;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    background-color: #1aded8;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+.button{
+    color: white;
+    background-color: #38CC77;
+    height: 40px;
+    width: 90px;
+    padding: 2px;
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
